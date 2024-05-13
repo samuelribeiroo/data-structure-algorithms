@@ -8,8 +8,9 @@ const log = console.log;
 
 // Implement a function called analyzeCarMileage which takes in an array of car objects and performs the following tasks:
 /* [x] - Calculate the total mileage of all cars combined (SOLVED).
-   [] -  Calculate the average mileage of all cars (NOT SOLVED).
-
+   [x] -  Calculate the average mileage of all cars (SOLVED).
+   [x] - Find the car with the highest mileage.
+   [x] - Find the car with the lowest mileage.
 */
 
 function analyzeCarMileage(car) {
@@ -17,16 +18,17 @@ function analyzeCarMileage(car) {
     return (index = index + acc.mileage);
   }, 0);
 
-  return getTotalMiles;
+  const getAvg = getTotalMiles / cars.length;
+
+  const formatAvg = parseFloat(getAvg.toFixed(2));
+
+  const lowestMile = Math.min(...cars.map((car) => car.mileage));
+
+  const highestMile = Math.max(...cars.map((car) => car.mileage));
+
+  return { getTotalMiles, formatAvg, lowestMile, highestMile };
 }
 
-const findAverage = () => {
-  //... Insert the code here
-};
-
-const backLog = analyzeCarMileage(cars);
-
-log(backLog);
+// log(analyzeCarMileage(cars));
 
 module.exports = analyzeCarMileage;
-module.exports = findAverage;
