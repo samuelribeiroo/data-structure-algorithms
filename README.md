@@ -16,6 +16,8 @@
 
 
 [Hacker Rank](https://www.hackerrank.com/) - Online platform to practice algorithmic logic and data structure problems
-  
+
+<h2 align = 'left'>Tools</h2>
+<img src="https://skillicons.dev/icons?i=javascript,git,jest" />
 </div>
 
