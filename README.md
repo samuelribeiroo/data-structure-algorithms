@@ -7,6 +7,15 @@
 
 > <p align = 'left'> 🇺🇸 Repository created to store the contents that I used to study algorithms, syntax of JavaScript, Data Structure.</p>
 
+<h2 align = 'left'>Resources</h2>
+
+<div align = 'left'>
+  
+[70+ JavaScript Challenges: Data Structures & Algorithms](https://www.udemy.com/course/javascript-challenges/) - Course offered by Brad Traversy featuring more than 70 exercises and a basic introduction to data structures.
 
 
+
+[Hacker Rank](https://www.hackerrank.com/) - Online platform to practice algorithmic logic and data structure problems
+  
+</div>
 
