@@ -14,8 +14,9 @@
 [70+ JavaScript Challenges: Data Structures & Algorithms](https://www.udemy.com/course/javascript-challenges/) - Course offered by Brad Traversy featuring more than 70 exercises and a basic introduction to data structures.
 
 
-
 [Hacker Rank](https://www.hackerrank.com/) - Online platform to practice algorithmic logic and data structure problems
+
+[Eloquent JavaScript, 2rd Edition: A Modern Introduction to Programming](https://github.com/samuelribeiroo/eloquente-javascript) - A free book that offers a comprehensive introduction to JavaScript, covering the most important topics in computer science.
 
 <h2 align = 'left'>Tools</h2>
 <img src="https://skillicons.dev/icons?i=javascript,git,jest" />
