@@ -15,20 +15,27 @@ const log = console.log;
 
 function analyzeCarMileage(car) {
   const getTotalMiles = car.reduce((index, acc) => {
-    return (index = index + acc.mileage);
+    return (index += acc.mileage);
   }, 0);
 
   const getAvg = getTotalMiles / cars.length;
 
   const formatAvg = parseFloat(getAvg.toFixed(2));
+  // The logic its right, but the output not. The output should be the full object withe the highest and lowest mileage. Not only the value.
 
-  const lowestMile = Math.min(...cars.map((car) => car.mileage));
+  // const lowestMile = Math.min(...cars.map((car) => car.mileage));
+  // const highestMile = Math.max(...cars.map((car) => car.mileage));
 
-  const highestMile = Math.max(...cars.map((car) => car.mileage));
+  const lowestMile = cars.reduce((lowest, car) =>
+    lowest.mileage > car.mileage ? car : lowest
+  );
 
-  return { getTotalMiles, formatAvg, lowestMile, highestMile };
+  const highestMile = cars.reduce((highest, car) =>
+    highest.mileage < car.mileage ? car : highest
+  );
+
+  return { getTotalMiles, averageMileage: formatAvg, lowestMile, highestMile };
 }
 
-// log(analyzeCarMileage(cars));
 
 module.exports = analyzeCarMileage;
