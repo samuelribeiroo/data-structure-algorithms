@@ -1,12 +1,12 @@
-const log = console.log;
-
 function sortedSquared(nums) {
-  let newArr = Array(nums.length).fill(0);
+  const lengthArray = nums.length;
+
+  let newArr = new Array(lengthArray).fill(0);
 
   let pointerLeft = 0;
-  let pointerRight = nums.length - 1;
+  let pointerRight = lengthArray - 1;
 
-  for (let index = nums.length - 1; index >= 0; --index) {
+  for (let index = lengthArray - 1; index >= 0; --index) {
     let mathLeftCouter =
       Math.abs(nums[pointerLeft]) > Math.abs(nums[pointerRight]);
     if (mathLeftCouter) {
@@ -23,7 +23,4 @@ function sortedSquared(nums) {
 
 const testCase = [-7, -3, 2, 3, 11];
 
-// log(sortedSquared(testCase));
-
-
-module.exports = sortedSquared
+module.exports = sortedSquared;
