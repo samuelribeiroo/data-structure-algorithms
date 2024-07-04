@@ -24,8 +24,4 @@ function createCounter(init) {
   return { increment, reset, decrement };
 }
 
-const counter = createCounter(5);
-
-console.log(counter.increment());
-console.log(counter.reset());
-console.log(counter.decrement());
+module.exports = createCounter
