@@ -16,6 +16,8 @@
 
 [Hacker Rank](https://www.hackerrank.com/) - Online platform to practice algorithmic logic and data structure problems
 
+[LeetCode](https://leetcode.com/) - LeetCode is a popular online platform primarily designed for practicing coding and preparing for technical interviews. It provides a wide range of programming challenges across various domains, including algorithms, data structures, system design, and databases.
+
 [Eloquent JavaScript, 2rd Edition: A Modern Introduction to Programming](https://github.com/samuelribeiroo/eloquente-javascript) - A free book that offers a comprehensive introduction to JavaScript, covering the most important topics in computer science.
 
 <h2 align = 'left'>Tools</h2>
