@@ -18,8 +18,7 @@ function catsAndMouse(x, y, z) {
 // 1, 2, 3 --> Cat B
 // 1, 3, 2 -> Mouse
 // 2, 5, 7 -> Cat B
-const log = console.log;
 
-log(catsAndMouse(1, 3, 2));
+
 
 module.exports = catsAndMouse;

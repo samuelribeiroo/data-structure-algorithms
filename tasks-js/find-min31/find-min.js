@@ -25,6 +25,6 @@ function findMinIndex(array) {
   return minIndex;
 }
 
-const list = [20, 30, 40, 1];
+const list = [250, 1, 347, 9];
 const sortedList = sortArray(list);
 console.log(sortedList); 

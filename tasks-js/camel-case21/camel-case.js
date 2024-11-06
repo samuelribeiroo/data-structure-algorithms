@@ -11,6 +11,5 @@ function camelCase(s) {
   return count;
 }
 
-log(camelCase("oneTwoThree"));
 
 module.exports = camelCase;

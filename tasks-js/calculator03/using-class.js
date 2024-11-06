@@ -33,5 +33,3 @@ export class Calculator {
 }
 
 const operators = new Calculator();
-
-log(operators.getDivide(50, 0));

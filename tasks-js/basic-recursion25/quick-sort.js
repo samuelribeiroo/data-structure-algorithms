@@ -34,6 +34,3 @@ function counting(number = 'Parametro não fornecido.') {
   return baseCase
 }
 
-counting(1)
-console.log('=============================')
-counting(7)

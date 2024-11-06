@@ -15,10 +15,12 @@ let right = array.length - 1
 // While Loop is saying: 'Continues if right are smaller or equal to left'
 while (left <= right) {
   // This variable basically divide our ordened list.
-  let middle = Math.floor((left + right) / 2)
+  // biome-ignore lint/style/useConst: <explanation>
+    let middle = Math.floor((left + right) / 2)
 
   if(array[middle] === target) {
     return middle // Here are if middle is equal to middle
+  // biome-ignore lint/style/noUselessElse: <explanation>
   } else if(array[middle] < target) {
     right = middle + 1 // Looking for half right
   } else {

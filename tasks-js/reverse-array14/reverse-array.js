@@ -10,6 +10,4 @@ function reverseArray(arr) {
 
 const result = reverseArray(mockArr)
 
-log(result)
-
 module.exports = reverseArray

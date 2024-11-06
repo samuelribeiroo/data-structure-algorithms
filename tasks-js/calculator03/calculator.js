@@ -29,7 +29,7 @@ function calculator(x, y, operator) {
 
 const operationTest = calculator(10, 25, "*");
 
-log(operationTest);
+
 
 module.exports = calculator;
 

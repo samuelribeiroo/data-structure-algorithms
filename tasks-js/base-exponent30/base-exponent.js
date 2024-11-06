@@ -8,6 +8,5 @@ function power(base, expoent) {
   return result
 }
 
-console.log(power(8,2))
 
 module.exports = power
