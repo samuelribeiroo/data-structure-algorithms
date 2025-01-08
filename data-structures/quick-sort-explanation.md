@@ -31,3 +31,5 @@ O(n
  ) pode ocorrer com escolhas ruins de pivô.
 
 Não é estável (a ordem relativa de elementos iguais pode mudar).
+
+[![](https://cdn-ilcidid.nitrocdn.com/UUGFLrvwXQisJMMAxvyGgbCYGRGywWEY/assets/images/optimized/rev-bbda656/cdn.prod.website-files.com/5d0dc87aac109e1ffdbe379c/6098e0ecedd39b2d866b18f7_UNUFjEGBUOFu7hddvEXMK5DEkeYLLMhWXdqzY5DBSl11pmM1-x-40H4AOiBhNUOoz2LWVKEJ1TrswXAlFp__MPQI83k8HhHwMwncGgzexxE89FcoqAgcorc95wQZZ0l3iMbmsSdh.png)]
